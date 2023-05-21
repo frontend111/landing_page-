@@ -1,0 +1,470 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+   background-color: black;   
+   color:#f1f1f1!important;
+}
+
+nav li {
+  color: #ccc;
+  display: inline-block;
+  padding: 10px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+ 
+}
+nav ul{
+  display: none
+}
+@media screen and (max-width:808px) {
+  nav ul{
+
+   display:block;
+  }
+}
+ .main{
+position:relative;
+margin-left:20%;
+margin-right:20%;
+  
+} 
+.side-nav{
+    position: absolute;
+    left: 0px;
+    width:16vh;
+    position: fixed;
+    height:100%;
+    text-align: center;
+   background: rgba(255, 255, 255, 0.246);
+   letter-spacing:2px;
+}
+.menu a{
+    display: block;
+    margin-top:25%;
+}
+.menu i{
+ font-size: 40px;
+ color:#f1f1f1!important;
+}
+
+.menu i p{
+    margin-top:20px;
+}
+.menu h1, p{
+    margin-top:10px;
+}
+.heding-text{
+    margin-top:30px;
+     letter-spacing:2px;
+}
+.opacity{
+ opacity: 0.60;
+}
+.mynameinf p{
+    margin-top:50px;
+    text-align: justify!important;
+}
+h2{
+    margin-top: 30px;
+}
+.container {
+    width: 100%;
+    background-color: #f1f1f1!important;
+    
+  }
+  .skillsmit{
+      margin-top: 50px;
+  }
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f1f1f1!important;
+  }
+  
+  .html {width: 90%; background-color:#616161!important;}
+  .css {width: 80%; background-color:#616161!important;}
+  .js {width: 65%; background-color:#616161!important;}
+  .php {width: 60%; background-color: #616161!important;}
+
+
+  .joninfo a {
+     display:inline-block;
+    
+     font-size:20px;
+     color: black;
+     text-decoration: none;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-align: center;
+     margin-left:50px;
+     margin-right: 50px;
+  }
+  .joninfo span, p{
+      color: #616161!important;
+  }
+  .joninfo{
+text-align: center;
+background-color:#f1f1f1!important;
+;
+margin-top: 50px;
+  }
+  .down-resume{
+      margin-top: 50px;
+    width: 20%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:#f1f1f1!important;
+    color: #616161!important;
+  }
+  .down-resume span{
+      margin-left: 5px;
+  }
+
+.texthedding{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top:0;
+   font-size:200%;
+}
+
+@media screen and (max-width:400px) {
+.texthedding{
+  width: 100px;
+}
+}
+@media screen and (max-width:810px) {
+  .texthedding{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:810px) {
+ 
+    .side-nav{
+        display: none;
+    }
+    .joninfo a {
+        display:block;
+       
+        font-size:20px;
+        color:  #616161!important;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left:70px;
+        margin-right: 70px;
+     }
+     .down-resume span{
+       display: none;
+     }
+}
+
+.pricez{
+    margin-top: 50px;
+}
+.pricemeter{
+    margin-top: 50px;
+  
+    
+}
+.columns {
+    float: left;
+    width: 30%;
+    padding: 14px;
+    
+  }
+ 
+  .price {
+    list-style-type: none;
+   background-color:#f1f1f1!important ;
+   color: #616161!important;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0  #f1f1f1!important;
+  }
+  
+  .price .header {
+    background-color: #f1f1f1!important;
+    color: #616161!important;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid  #616161!important;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #f1f1f1!important;
+    color: #616161!important ;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color:  #616161!important;
+    border: none;
+    color: #f1f1f1!important;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 810px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+.star{
+    margin-top: 50px;
+}
+    .heading {
+        font-size: 25px;
+        margin-right: 25px;
+      }
+      
+      .fa {
+        font-size: 25px;
+      }
+      
+      .checked {
+        color:#616161!important;;
+      }
+      
+      /* Three column layout */
+      .side {
+        float: left;
+        width: 15%;
+        margin-top:10px;
+      }
+      
+      .middle {
+        margin-top:10px;
+        float: left;
+        width: 70%;
+      }
+      
+      /* Place text to the right */
+      .right {
+        text-align: right;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* The bar container */
+      .bar-container {
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color:  #616161!important;
+      }
+      
+      /* Individual bars */
+      .bar-5 {width: 60%; height: 18px; background-color: #616161!important;}
+      .bar-4 {width: 30%; height: 18px; background-color: #616161!important;}
+      .bar-3 {width: 10%; height: 18px; background-color: #616161!important;;}
+      .bar-2 {width: 4%; height: 18px; background-color: #616161!important;}
+      .bar-1 {width: 15%; height: 18px; background-color: #616161!important;}
+      
+      /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+      @media (max-width: 810px) {
+        .side, .middle {
+          width: 100%;
+        }
+        .right {
+          display: none;
+        }
+      }
+
+      .container {
+        border: 2px solid #dedede;
+        border-radius: 5px;
+        margin: 10px 0;
+      }
+      
+      .darker {
+        border-color: #ccc;
+        background-color: #ddd;
+      }
+      
+      .container::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .container img {
+        float: left;
+        max-width: 60px;
+        width: 100%;
+        margin-right: 20px;
+        border-radius: 50%;
+      }
+      
+      .container img.right {
+        float: right;
+        margin-left: 20px;
+        margin-right:0;
+      }
+      
+      .time-right {
+        float: right;
+        color: #aaa;
+      }
+      
+      .time-left {
+        float: left;
+        color: #999;
+      }
+.chattext{
+    margin-top: 50px;
+}
+      .chatbox{
+          margin-top: 50px;
+      }
+      a{
+          text-decoration: none;
+      }
+
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+      
+      .row {
+        display: -ms-flexbox; /* IE 10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE 10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create two equal columns that sits next to each other */
+      .column {
+        -ms-flex: 50%; /* IE 10 */
+        flex: 50%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+      }
+      
+      /* Style the buttons */
+      .btn {
+        border: none;
+        outline: none;
+        padding: 10px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        font-size: 18px;
+      }
+      
+      .btn:hover {
+        background-color: #ddd;
+      }
+      
+      .btn.active {
+        background-color: #666;
+        color: white;
+      }
+     .myphotos{
+        margin-top: 50px;
+      }
+      .myphosgellry{
+          margin-top: 50px;
+      }
+
+
+      /* contact */
+
+      .input-container {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      
+      .icon {
+        padding: 10px;
+        background: #616161!important;;
+        color: white;
+        min-width: 50px;
+        text-align: center;
+      }
+      
+      .input-field {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+      }
+      
+      .input-field:focus {
+        border: 2px solid #616161!important;;
+      }
+      
+      /* Set a style for the submit button */
+      .btn {
+        background-color: #616161!important;;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.9;
+      }
+      
+      .btn:hover {
+        opacity: 1;
+      }
+
+      .contactinfo ul {
+       margin-top: 50px;
+       font-size: 25px;
+      }
+      .contactinfo  li{
+        list-style: none;
+      }
+      .contactinfo  i{
+        
+        font-size: 30px;
+      }
+
+      .futter{
+        margin-top: 50px;
+        width: 100%;
+        height:30vh;
+      }
+      .futter a{
+        padding: 5px;
+        color: white;
+      }
+      
+      .futter p{
+        font-size: 20px;
+      }
